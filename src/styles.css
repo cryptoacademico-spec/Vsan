@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globales básicos */
+body {
+  background-color: #1e1e1e; 
+  color: white;
+  font-family: sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  padding: 20px;
+}
