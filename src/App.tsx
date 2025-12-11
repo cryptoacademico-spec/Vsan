@@ -1184,7 +1184,7 @@ const RiveritatechVSANMasterLab = () => {
   return (
     <div className="flex flex-col h-screen font-sans text-[#2d3640] bg-[#f5f7fa]">
       <div className="bg-[#1e2730] text-white h-[48px] flex items-center justify-between px-4 border-b border-[#444] shrink-0 z-50 shadow-xl">
-          <div className="flex items-center gap-6"><span className="font-bold text-lg">VMware vSphere Client</span><span className="text-gray-400 text-sm pl-4 border-l border-gray-600 font-mono">LAB: vSAN Master 2.0</span></div>
+          <div className="flex items-center gap-6"><span className="font-bold text-lg">VMware vSphere Client</span><span className="text-gray-400 text-sm pl-4 border-l border-gray-600 font-mono">LAB: vSAN 8</span></div>
           <div className="flex items-center gap-4 text-xs"><button onClick={resetLab} className="bg-red-600 text-white px-3 py-1 rounded-full font-bold hover:bg-red-700 flex items-center gap-2 shadow-md transition-transform hover:scale-105"><RotateCcw size={14}/> Reiniciar Lab</button><div className="flex items-center gap-2 text-gray-300"><User size={16}/> <span>student@riveritatech.local</span></div></div>
       </div>
       <div className="flex flex-1 overflow-hidden">
