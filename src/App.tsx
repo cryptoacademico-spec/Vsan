@@ -105,8 +105,8 @@ const generateInitialHosts = (scenario: LabScenario, architecture: VsanArchitect
                 }
                 return [
                     { id: `naa.500${i}`, type: 'SSD', size: '400 GB', capacityGB: 400, tier: 'Cache', claimedAs: 'Unclaimed', status: 'Healthy' },
-                    { id: `naa.600${i}1`, type: 'SSD', size: '1.92 TB', capacityGB: 1920, tier: 'Capacity', claimedAs: 'Unclaimed', status: 'Healthy' }, 
-                    { id: `naa.600${i}2`, type: 'SSD', size: '1.92 TB', capacityGB: 1920, tier: 'Capacity', claimedAs: 'Unclaimed', status: 'Healthy' }
+                    { id: `naa.600${i}1`, type: 'HDD', size: '1.92 TB', capacityGB: 1920, tier: 'Capacity', claimedAs: 'Unclaimed', status: 'Healthy' }, 
+                    { id: `naa.600${i}2`, type: 'HDD', size: '1.92 TB', capacityGB: 1920, tier: 'Capacity', claimedAs: 'Unclaimed', status: 'Healthy' }
                 ];
             };
             hostsArray.push({
